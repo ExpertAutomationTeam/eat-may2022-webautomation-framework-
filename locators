@@ -1,0 +1,40 @@
+locators:
+
+id
+name
+className
+tagName
+linkText
+partialLinkText
+css selector
+xpath
+
+<input class="input_error form_input" placeholder="Username" type="text" data-test="username"
+ id="user-name" name="user-name" autocorrect="off" autocapitalize="none" value="">
+
+<tagName attribute="value">inner html text</tagName>
+
+css selector:
+tagName[attribute='value']
+tagName[attribute*='partialValue']
+*[attribute='value']
+#idValue
+.classNameValue (no spaces, replace by a .)
+css childTagName childTagName childTagName
+
+relative xpath:
+//tagName[@attribute='value']
+//tagName[contains(@attribute,'partialValue')]
+//*[@attribute='value']
+parent-child relationship: xpath/tagName/tagName/tagName
+child-parent relationship: xpath/../../../..
+                           xpath/parent::tagName/parent::tagName/parent::tagName
+sibling relationship: xpath/following-sibling::tagName
+                      xpath/preceding-sibling::tagName
+text based xpath: //tagName[text()='value']
+
+absolute xpath:
+/html/.....
+
+http://username:password@ondemand.sacelabs.com:80/wd/hub
+http://nacerhadjsaid1:pK4miZ8sp15afqsvGckE@hub-cloud.browerstack.com:80/wd/hub
