@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/nacer-zimu/IdeaProjects/eat-mai22-web-automation-framework/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="saucedemo test" duration-ms="14234" started-at="2022-06-23T02:37:01Z" finished-at="2022-06-23T02:37:15Z">
+    <groups>
+    </groups>
+    <test name="basic components" duration-ms="14234" started-at="2022-06-23T02:37:01Z" finished-at="2022-06-23T02:37:15Z">
+      <class name="com.saucedemo.BasicComponentsTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="extentSetup" is-config="true" duration-ms="115" started-at="2022-06-23T02:37:01Z" finished-at="2022-06-23T02:37:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60325987]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/nacer-zimu/IdeaProjects/eat-mai22-web-automation-framework/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="setUp" is-config="true" duration-ms="5827" started-at="2022-06-23T02:37:01Z" finished-at="2022-06-23T02:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="startExtent" is-config="true" duration-ms="8" started-at="2022-06-23T02:37:07Z" finished-at="2022-06-23T02:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.BasicComponentsTest.checkPresenceOfLoginPageComponents()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="checkPresenceOfLoginPageComponents()[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="checkPresenceOfLoginPageComponents" duration-ms="228" started-at="2022-06-23T02:37:07Z" finished-at="2022-06-23T02:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPresenceOfLoginPageComponents -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="afterEachTestMethod" is-config="true" duration-ms="558" started-at="2022-06-23T02:37:07Z" finished-at="2022-06-23T02:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPresenceOfLoginPageComponents status=SUCCESS method=BasicComponentsTest.checkPresenceOfLoginPageComponents()[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="setUp" is-config="true" duration-ms="5444" started-at="2022-06-23T02:37:08Z" finished-at="2022-06-23T02:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="startExtent" is-config="true" duration-ms="1" started-at="2022-06-23T02:37:13Z" finished-at="2022-06-23T02:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.BasicComponentsTest.checkUserLandsOnTheRightWebsite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="checkUserLandsOnTheRightWebsite()[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="checkUserLandsOnTheRightWebsite" duration-ms="1730" started-at="2022-06-23T02:37:13Z" finished-at="2022-06-23T02:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserLandsOnTheRightWebsite -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="afterEachTestMethod" is-config="true" duration-ms="423" started-at="2022-06-23T02:37:15Z" finished-at="2022-06-23T02:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkUserLandsOnTheRightWebsite status=SUCCESS method=BasicComponentsTest.checkUserLandsOnTheRightWebsite()[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.saucedemo.BasicComponentsTest@52b1beb6]" name="generateReport" is-config="true" duration-ms="65" started-at="2022-06-23T02:37:15Z" finished-at="2022-06-23T02:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.saucedemo.BasicComponentsTest -->
+    </test> <!-- basic components -->
+  </suite> <!-- saucedemo test -->
+</testng-results>

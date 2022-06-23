@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+### JetBrains template
+
+.idea\
+extent-report\
+logs\
+screenshots\
+target\
+*.iml
+.DS_Store\
+
