@@ -1,3 +1,10 @@
 22:37:07.552 [main] INFO  pages.LoginPage - username field presence: true
 22:37:07.623 [main] INFO  pages.LoginPage - password field presence: true
 22:37:07.691 [main] INFO  pages.LoginPage - login button presence: true
+18:22:54.278 [main] INFO  pages.LoginPage - username field presence: true
+18:22:54.333 [main] INFO  pages.LoginPage - password field presence: true
+18:22:54.387 [main] INFO  pages.LoginPage - login button presence: true
+18:26:05.896 [main] INFO  pages.LoginPage - username entered
+18:26:06.239 [main] INFO  pages.LoginPage - password entered
+18:26:06.377 [main] INFO  pages.LoginPage - click on login button success
+18:26:07.363 [main] INFO  pages.LoginPage - error message text: Epic sadface: Username is required
